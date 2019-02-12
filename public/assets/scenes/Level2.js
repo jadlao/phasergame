@@ -31,10 +31,10 @@ export default class Level2 extends Phaser.Scene {
 
     // use this way
     this.bomb = this.add.sprite(600, 300, 'bomb').setScale(3,3).setInteractive()
-    this.player1 = this.physics.add.sprite(100, 300, 'dude').setScale(3,3).setOrigin(0,0).setOffset(0, 8)
+    this.player1 = this.physics.add.sprite(200, 300, 'dude').setScale(3,3).setOrigin(0,0).setOffset(0, 8)
     this.player1.setSize(this.player1.body.width, this.player1.body.height - 8, false) // very important
     // console.log(this.player1)
-    this.player2 = this.physics.add.sprite(200, 150, 'dude') 
+    this.player2 = this.physics.add.sprite(50, 300, 'dude').setInteractive()
     // this.player2.setMass(25)
 
     // world bound
@@ -46,25 +46,15 @@ export default class Level2 extends Phaser.Scene {
     // Tweens
     this.bomb.on('pointerdown', () => {
       this.dudeAnimation()
-    })
-    
-    dudeAnimation() {
-      var tween = this.tweens.add({
-        targets: this.player1,
-        x: 200,
-        y: 200,
-        ease: 'Linear',
-        duration: 1000,
-        delay: 0,
-        //repeat: -1,
-        loop: 0,
-        loopDelay: 500,
-        yoyo: true,
-        onStart: () => {
-          console.log('starting')
-        }
-      })
-    }
+    });
+    this.player2.on('pointerdown', () => {
+      // player2 must be set to interactive
+      if(this.tween.isPlaying()) {
+        this.tween.pause()
+      } else {
+        this.tween.resume()
+      }
+    });
 
     // colliders - pass in game objects and callback
     // this.physics.add.collider(this.player1, this.player2, () => {
@@ -80,8 +70,8 @@ export default class Level2 extends Phaser.Scene {
     //   console.log('overlapped')
     // })
 
-    //this.star = this.add.sprite(500, 200, 'star').setScale(3, 3).setDepth(1)
-      //.setInteractive({dropZone: true}).setDepth(1)
+    // this.star = this.add.sprite(500, 200, 'star').setScale(3, 3).setDepth(1)
+    //   .setInteractive({dropZone: true}).setDepth(1)
 
     // KEYBOARD
     // this.input.enabled = true;
@@ -118,9 +108,9 @@ export default class Level2 extends Phaser.Scene {
     //     this.dude.setY(pointer.y)
     //   }
       
-      //console.log(pointer)
-      //console.log(pointer.x)
-    //})
+    //   console.log(pointer)
+    //   console.log(pointer.x)
+    // })
 
     // this.dude.on('pointerdown', pointer => {
     //   //this.dude.setX(this.dude.x + 50)
@@ -149,6 +139,58 @@ export default class Level2 extends Phaser.Scene {
     //   console.log('Drag end')
     //   this.dude.setScale(this.dude.scaleX + 1, this.dude.scaleY + 1)
     // })
+}
+
+dudeAnimation() {
+  // multiple tweens
+  this.player1Timeline = this.tweens.timeline({
+    targets: this.player1,
+    ease: 'Linear',
+    duration: 1000,
+    loop: 0,
+    tweens: [
+      {
+        targets: this.player1,
+        x: 0,
+        y: 0,
+        duration: 5000
+      },
+      {
+        targets: this.player1,
+        x: 600,
+        y: 0,
+        scaleX: 5,
+        scaleY: 5,
+        offset: '-=3000'
+      },
+      {
+        targets: this.player1,
+        x: 600,
+        y: 300,
+      },
+      {
+        targets: this.player1,
+        x: 0,
+        y: 300,
+      }
+    ]
+  })
+
+  // this.tween = this.tweens.add({
+  //   targets: this.player1,
+  //   x: 200,
+  //   y: '-=150',
+  //   ease: 'Linear',
+  //   duration: 1000,
+  //   delay: 0,
+  //   //repeat: -1,
+  //   loop: -1,
+  //   loopDelay: 500,
+  //   yoyo: true,
+  //   onStart: () => {
+  //     //console.log('starting')
+  //   }
+  // })
 }
 
 	update(time, delta) {
