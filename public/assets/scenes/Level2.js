@@ -5,15 +5,35 @@ export default class Level2 extends Phaser.Scene {
 		});
 	}
 	preload() {
+    this.load.audio('bgmusic', ['/assets/audio/first-audio.ogg'])
+    this.load.audio('coinsound', ['/assets/audio/sfx_coin_double4.wav'])
     this.load.image('got', '/assets/sprites/got.jpg')
     this.load.image('bomb', '/assets/sprites/bomb.png')
 		this.load.spritesheet('dude', '/assets/sprites/dude.png', {
 			frameWidth: 32,
 			frameHeight: 48
-		})
+    })
+    this.load.atlas('shoeboxkid', '/assets/sprites/shoeboxkid/shoeboxkid.png',
+  '/assets/sprites/shoeboxkid/shoeboxkid.json')
 		}
 
 	create() {
+    // audio
+    this.bgmusic = this.sound.add('bgmusic', {
+      mute: false,
+      volume: 1,
+      rate: 1,
+      detune: 1100,
+      seec: 20,
+      loop: false,
+      // delay: 1000
+    })
+    this.bgmusic.play()
+    // this.bgmusic.resume()
+    // this.bgmusic.setMute()
+    //this.bgmusic.setVolume(0.5)
+    //this.bgmusic.setLoop(true)
+
     // camera
     // this.map = this.add.sprite(0, 0, 'got').setDepth(2).setOrigin(0,0).setDepth(0)
     // this.physics.world.setBounds(0, 0, this.map.width, this.map.height)
@@ -36,6 +56,29 @@ export default class Level2 extends Phaser.Scene {
     // console.log(this.player1)
     this.player2 = this.physics.add.sprite(50, 300, 'dude').setInteractive()
     // this.player2.setMass(25)
+
+    // shoeboxkid
+    this.kid = this.add.sprite(300, 150, 'shoeboxkid', 'shoeboxkid_01.png').setScale(4)
+    this.anims.create({
+      key: 'walk',
+      repeat: -1,
+      frameRate: 10,
+      frames: this.anims.generateFrameNames('shoeboxkid', {
+        prefix: 'shoeboxkid_run',
+        suffix: '.png',
+        start: 1,
+        end: 3,
+        zeroPad: 2
+      })
+    })
+    // console.log(this.anims.generateFrameNames('shoeboxkid', {
+    //   prefix: 'shoeboxkid_run',
+    //   suffix: '.png',
+    //   start: 1,
+    //   end: 3,
+    //   zeroPad: 2
+    // }))
+    this.kid.play('walk')
 
     // world bound
     this.physics.world.setBoundsCollision()

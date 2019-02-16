@@ -1,0 +1,520 @@
+{
+"frames": {
+	"shoeboxkid_01.png": {
+		"frame": {"x":91, "y":92, "w":10, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":10,"h":13},
+		"sourceSize": {"w":10,"h":13}
+	},
+	"shoeboxkid_02.png": {
+		"frame": {"x":102, "y":92, "w":10, "h":14},
+		"spriteSourceSize": {"x":0,"y":0,"w":10,"h":14},
+		"sourceSize": {"w":10,"h":14}
+	},
+	"shoeboxkid_03.png": {
+		"frame": {"x":96, "y":0, "w":10, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":10,"h":13},
+		"sourceSize": {"w":10,"h":13}
+	},
+	"shoeboxkid_04.png": {
+		"frame": {"x":95, "y":15, "w":10, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":10,"h":13},
+		"sourceSize": {"w":10,"h":13}
+	},
+	"shoeboxkid_05.png": {
+		"frame": {"x":50, "y":40, "w":13, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":13,"h":13},
+		"sourceSize": {"w":13,"h":13}
+	},
+	"shoeboxkid_06.png": {
+		"frame": {"x":0, "y":48, "w":32, "h":12},
+		"spriteSourceSize": {"x":0,"y":0,"w":32,"h":12},
+		"sourceSize": {"w":32,"h":12}
+	},
+	"shoeboxkid_07.png": {
+		"frame": {"x":0, "y":106, "w":16, "h":5},
+		"spriteSourceSize": {"x":0,"y":0,"w":16,"h":5},
+		"sourceSize": {"w":16,"h":5}
+	},
+	"shoeboxkid_08.png": {
+		"frame": {"x":34, "y":89, "w":16, "h":12},
+		"spriteSourceSize": {"x":0,"y":0,"w":16,"h":12},
+		"sourceSize": {"w":16,"h":12}
+	},
+	"shoeboxkid_09.png": {
+		"frame": {"x":23, "y":77, "w":16, "h":11},
+		"spriteSourceSize": {"x":0,"y":0,"w":16,"h":11},
+		"sourceSize": {"w":16,"h":11}
+	},
+	"shoeboxkid_10.png": {
+		"frame": {"x":103, "y":29, "w":9, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":9,"h":13},
+		"sourceSize": {"w":9,"h":13}
+	},
+	"shoeboxkid_100.png": {
+		"frame": {"x":83, "y":15, "w":11, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":11,"h":13},
+		"sourceSize": {"w":11,"h":13}
+	},
+	"shoeboxkid_101.png": {
+		"frame": {"x":64, "y":54, "w":12, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":12,"h":13},
+		"sourceSize": {"w":12,"h":13}
+	},
+	"shoeboxkid_102.png": {
+		"frame": {"x":91, "y":78, "w":11, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":11,"h":13},
+		"sourceSize": {"w":11,"h":13}
+	},
+	"shoeboxkid_11.png": {
+		"frame": {"x":91, "y":43, "w":11, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":11,"h":13},
+		"sourceSize": {"w":11,"h":13}
+	},
+	"shoeboxkid_12.png": {
+		"frame": {"x":103, "y":43, "w":9, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":9,"h":13},
+		"sourceSize": {"w":9,"h":13}
+	},
+	"shoeboxkid_13.png": {
+		"frame": {"x":40, "y":74, "w":14, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":14,"h":13},
+		"sourceSize": {"w":14,"h":13}
+	},
+	"shoeboxkid_14.png": {
+		"frame": {"x":91, "y":29, "w":11, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":11,"h":13},
+		"sourceSize": {"w":11,"h":13}
+	},
+	"shoeboxkid_15.png": {
+		"frame": {"x":33, "y":48, "w":16, "h":12},
+		"spriteSourceSize": {"x":0,"y":0,"w":16,"h":12},
+		"sourceSize": {"w":16,"h":12}
+	},
+	"shoeboxkid_16.png": {
+		"frame": {"x":34, "y":102, "w":14, "h":12},
+		"spriteSourceSize": {"x":0,"y":0,"w":14,"h":12},
+		"sourceSize": {"w":14,"h":12}
+	},
+	"shoeboxkid_17.png": {
+		"frame": {"x":49, "y":102, "w":14, "h":12},
+		"spriteSourceSize": {"x":0,"y":0,"w":14,"h":12},
+		"sourceSize": {"w":14,"h":12}
+	},
+	"shoeboxkid_18.png": {
+		"frame": {"x":32, "y":61, "w":16, "h":12},
+		"spriteSourceSize": {"x":0,"y":0,"w":16,"h":12},
+		"sourceSize": {"w":16,"h":12}
+	},
+	"shoeboxkid_19.png": {
+		"frame": {"x":0, "y":93, "w":16, "h":12},
+		"spriteSourceSize": {"x":0,"y":0,"w":16,"h":12},
+		"sourceSize": {"w":16,"h":12}
+	},
+	"shoeboxkid_20.png": {
+		"frame": {"x":17, "y":93, "w":16, "h":12},
+		"spriteSourceSize": {"x":0,"y":0,"w":16,"h":12},
+		"sourceSize": {"w":16,"h":12}
+	},
+	"shoeboxkid_21.png": {
+		"frame": {"x":55, "y":68, "w":13, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":13,"h":13},
+		"sourceSize": {"w":13,"h":13}
+	},
+	"shoeboxkid_22.png": {
+		"frame": {"x":51, "y":88, "w":13, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":13,"h":13},
+		"sourceSize": {"w":13,"h":13}
+	},
+	"shoeboxkid_23.png": {
+		"frame": {"x":64, "y":40, "w":13, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":13,"h":13},
+		"sourceSize": {"w":13,"h":13}
+	},
+	"shoeboxkid_24.png": {
+		"frame": {"x":64, "y":0, "w":12, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":12,"h":13},
+		"sourceSize": {"w":12,"h":13}
+	},
+	"shoeboxkid_25.png": {
+		"frame": {"x":95, "y":57, "w":10, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":10,"h":13},
+		"sourceSize": {"w":10,"h":13}
+	},
+	"shoeboxkid_26.png": {
+		"frame": {"x":49, "y":8, "w":14, "h":15},
+		"spriteSourceSize": {"x":0,"y":0,"w":14,"h":15},
+		"sourceSize": {"w":14,"h":15}
+	},
+	"shoeboxkid_27.png": {
+		"frame": {"x":41, "y":24, "w":14, "h":15},
+		"spriteSourceSize": {"x":0,"y":0,"w":14,"h":15},
+		"sourceSize": {"w":14,"h":15}
+	},
+	"shoeboxkid_28.png": {
+		"frame": {"x":83, "y":0, "w":12, "h":14},
+		"spriteSourceSize": {"x":0,"y":0,"w":12,"h":14},
+		"sourceSize": {"w":12,"h":14}
+	},
+	"shoeboxkid_29.png": {
+		"frame": {"x":50, "y":54, "w":13, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":13,"h":13},
+		"sourceSize": {"w":13,"h":13}
+	},
+	"shoeboxkid_30.png": {
+		"frame": {"x":69, "y":68, "w":12, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":12,"h":13},
+		"sourceSize": {"w":12,"h":13}
+	},
+	"shoeboxkid_31.png": {
+		"frame": {"x":103, "y":71, "w":9, "h":12},
+		"spriteSourceSize": {"x":0,"y":0,"w":9,"h":12},
+		"sourceSize": {"w":9,"h":12}
+	},
+	"shoeboxkid_32.png": {
+		"frame": {"x":65, "y":98, "w":12, "h":15},
+		"spriteSourceSize": {"x":0,"y":0,"w":12,"h":15},
+		"sourceSize": {"w":12,"h":15}
+	},
+	"shoeboxkid_33.png": {
+		"frame": {"x":70, "y":14, "w":12, "h":15},
+		"spriteSourceSize": {"x":0,"y":0,"w":12,"h":15},
+		"sourceSize": {"w":12,"h":15}
+	},
+	"shoeboxkid_34.png": {
+		"frame": {"x":78, "y":82, "w":12, "h":15},
+		"spriteSourceSize": {"x":0,"y":0,"w":12,"h":15},
+		"sourceSize": {"w":12,"h":15}
+	},
+	"shoeboxkid_35.png": {
+		"frame": {"x":82, "y":62, "w":12, "h":15},
+		"spriteSourceSize": {"x":0,"y":0,"w":12,"h":15},
+		"sourceSize": {"w":12,"h":15}
+	},
+	"shoeboxkid_36.png": {
+		"frame": {"x":78, "y":98, "w":12, "h":15},
+		"spriteSourceSize": {"x":0,"y":0,"w":12,"h":15},
+		"sourceSize": {"w":12,"h":15}
+	},
+	"shoeboxkid_37.png": {
+		"frame": {"x":83, "y":15, "w":11, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":11,"h":13},
+		"sourceSize": {"w":11,"h":13}
+	},
+	"shoeboxkid_38.png": {
+		"frame": {"x":64, "y":54, "w":12, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":12,"h":13},
+		"sourceSize": {"w":12,"h":13}
+	},
+	"shoeboxkid_39.png": {
+		"frame": {"x":91, "y":78, "w":11, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":11,"h":13},
+		"sourceSize": {"w":11,"h":13}
+	},
+	"shoeboxkid_40.png": {
+		"frame": {"x":36, "y":40, "w":13, "h":7},
+		"spriteSourceSize": {"x":0,"y":0,"w":13,"h":7},
+		"sourceSize": {"w":13,"h":7}
+	},
+	"shoeboxkid_41.png": {
+		"frame": {"x":91, "y":106, "w":10, "h":8},
+		"spriteSourceSize": {"x":0,"y":0,"w":10,"h":8},
+		"sourceSize": {"w":10,"h":8}
+	},
+	"shoeboxkid_42.png": {
+		"frame": {"x":65, "y":82, "w":12, "h":15},
+		"spriteSourceSize": {"x":0,"y":0,"w":12,"h":15},
+		"sourceSize": {"w":12,"h":15}
+	},
+	"shoeboxkid_43.png": {
+		"frame": {"x":56, "y":24, "w":13, "h":15},
+		"spriteSourceSize": {"x":0,"y":0,"w":13,"h":15},
+		"sourceSize": {"w":13,"h":15}
+	},
+	"shoeboxkid_44.png": {
+		"frame": {"x":78, "y":30, "w":12, "h":15},
+		"spriteSourceSize": {"x":0,"y":0,"w":12,"h":15},
+		"sourceSize": {"w":12,"h":15}
+	},
+	"shoeboxkid_45.png": {
+		"frame": {"x":78, "y":46, "w":12, "h":15},
+		"spriteSourceSize": {"x":0,"y":0,"w":12,"h":15},
+		"sourceSize": {"w":12,"h":15}
+	},
+	"shoeboxkid_46.png": {
+		"frame": {"x":0, "y":85, "w":22, "h":7},
+		"spriteSourceSize": {"x":0,"y":0,"w":22,"h":7},
+		"sourceSize": {"w":22,"h":7}
+	},
+	"shoeboxkid_47.png": {
+		"frame": {"x":91, "y":92, "w":10, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":10,"h":13},
+		"sourceSize": {"w":10,"h":13}
+	},
+	"shoeboxkid_48.png": {
+		"frame": {"x":102, "y":92, "w":10, "h":14},
+		"spriteSourceSize": {"x":0,"y":0,"w":10,"h":14},
+		"sourceSize": {"w":10,"h":14}
+	},
+	"shoeboxkid_49.png": {
+		"frame": {"x":96, "y":0, "w":10, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":10,"h":13},
+		"sourceSize": {"w":10,"h":13}
+	},
+	"shoeboxkid_50.png": {
+		"frame": {"x":95, "y":15, "w":10, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":10,"h":13},
+		"sourceSize": {"w":10,"h":13}
+	},
+	"shoeboxkid_51.png": {
+		"frame": {"x":0, "y":48, "w":32, "h":12},
+		"spriteSourceSize": {"x":0,"y":0,"w":32,"h":12},
+		"sourceSize": {"w":32,"h":12}
+	},
+	"shoeboxkid_52.png": {
+		"frame": {"x":65, "y":98, "w":12, "h":15},
+		"spriteSourceSize": {"x":0,"y":0,"w":12,"h":15},
+		"sourceSize": {"w":12,"h":15}
+	},
+	"shoeboxkid_53.png": {
+		"frame": {"x":70, "y":14, "w":12, "h":15},
+		"spriteSourceSize": {"x":0,"y":0,"w":12,"h":15},
+		"sourceSize": {"w":12,"h":15}
+	},
+	"shoeboxkid_54.png": {
+		"frame": {"x":0, "y":8, "w":48, "h":7},
+		"spriteSourceSize": {"x":0,"y":0,"w":48,"h":7},
+		"sourceSize": {"w":48,"h":7}
+	},
+	"shoeboxkid_58.png": {
+		"frame": {"x":33, "y":48, "w":16, "h":12},
+		"spriteSourceSize": {"x":0,"y":0,"w":16,"h":12},
+		"sourceSize": {"w":16,"h":12}
+	},
+	"shoeboxkid_59.png": {
+		"frame": {"x":34, "y":102, "w":14, "h":12},
+		"spriteSourceSize": {"x":0,"y":0,"w":14,"h":12},
+		"sourceSize": {"w":14,"h":12}
+	},
+	"shoeboxkid_60.png": {
+		"frame": {"x":49, "y":102, "w":14, "h":12},
+		"spriteSourceSize": {"x":0,"y":0,"w":14,"h":12},
+		"sourceSize": {"w":14,"h":12}
+	},
+	"shoeboxkid_61.png": {
+		"frame": {"x":32, "y":61, "w":16, "h":12},
+		"spriteSourceSize": {"x":0,"y":0,"w":16,"h":12},
+		"sourceSize": {"w":16,"h":12}
+	},
+	"shoeboxkid_62.png": {
+		"frame": {"x":0, "y":93, "w":16, "h":12},
+		"spriteSourceSize": {"x":0,"y":0,"w":16,"h":12},
+		"sourceSize": {"w":16,"h":12}
+	},
+	"shoeboxkid_63.png": {
+		"frame": {"x":17, "y":93, "w":16, "h":12},
+		"spriteSourceSize": {"x":0,"y":0,"w":16,"h":12},
+		"sourceSize": {"w":16,"h":12}
+	},
+	"shoeboxkid_64.png": {
+		"frame": {"x":65, "y":82, "w":12, "h":15},
+		"spriteSourceSize": {"x":0,"y":0,"w":12,"h":15},
+		"sourceSize": {"w":12,"h":15}
+	},
+	"shoeboxkid_65.png": {
+		"frame": {"x":56, "y":24, "w":13, "h":15},
+		"spriteSourceSize": {"x":0,"y":0,"w":13,"h":15},
+		"sourceSize": {"w":13,"h":15}
+	},
+	"shoeboxkid_66.png": {
+		"frame": {"x":78, "y":30, "w":12, "h":15},
+		"spriteSourceSize": {"x":0,"y":0,"w":12,"h":15},
+		"sourceSize": {"w":12,"h":15}
+	},
+	"shoeboxkid_67.png": {
+		"frame": {"x":78, "y":46, "w":12, "h":15},
+		"spriteSourceSize": {"x":0,"y":0,"w":12,"h":15},
+		"sourceSize": {"w":12,"h":15}
+	},
+	"shoeboxkid_68.png": {
+		"frame": {"x":82, "y":62, "w":12, "h":15},
+		"spriteSourceSize": {"x":0,"y":0,"w":12,"h":15},
+		"sourceSize": {"w":12,"h":15}
+	},
+	"shoeboxkid_69.png": {
+		"frame": {"x":78, "y":98, "w":12, "h":15},
+		"spriteSourceSize": {"x":0,"y":0,"w":12,"h":15},
+		"sourceSize": {"w":12,"h":15}
+	},
+	"shoeboxkid_70.png": {
+		"frame": {"x":0, "y":69, "w":25, "h":7},
+		"spriteSourceSize": {"x":0,"y":0,"w":25,"h":7},
+		"sourceSize": {"w":25,"h":7}
+	},
+	"shoeboxkid_71.png": {
+		"frame": {"x":41, "y":24, "w":14, "h":15},
+		"spriteSourceSize": {"x":0,"y":0,"w":14,"h":15},
+		"sourceSize": {"w":14,"h":15}
+	},
+	"shoeboxkid_72.png": {
+		"frame": {"x":83, "y":0, "w":12, "h":14},
+		"spriteSourceSize": {"x":0,"y":0,"w":12,"h":14},
+		"sourceSize": {"w":12,"h":14}
+	},
+	"shoeboxkid_73.png": {
+		"frame": {"x":34, "y":89, "w":16, "h":12},
+		"spriteSourceSize": {"x":0,"y":0,"w":16,"h":12},
+		"sourceSize": {"w":16,"h":12}
+	},
+	"shoeboxkid_74.png": {
+		"frame": {"x":78, "y":82, "w":12, "h":15},
+		"spriteSourceSize": {"x":0,"y":0,"w":12,"h":15},
+		"sourceSize": {"w":12,"h":15}
+	},
+	"shoeboxkid_75.png": {
+		"frame": {"x":0, "y":40, "w":35, "h":7},
+		"spriteSourceSize": {"x":0,"y":0,"w":35,"h":7},
+		"sourceSize": {"w":35,"h":7}
+	},
+	"shoeboxkid_76.png": {
+		"frame": {"x":40, "y":74, "w":14, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":14,"h":13},
+		"sourceSize": {"w":14,"h":13}
+	},
+	"shoeboxkid_77.png": {
+		"frame": {"x":91, "y":29, "w":11, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":11,"h":13},
+		"sourceSize": {"w":11,"h":13}
+	},
+	"shoeboxkid_78.png": {
+		"frame": {"x":34, "y":89, "w":16, "h":12},
+		"spriteSourceSize": {"x":0,"y":0,"w":16,"h":12},
+		"sourceSize": {"w":16,"h":12}
+	},
+	"shoeboxkid_79.png": {
+		"frame": {"x":23, "y":77, "w":16, "h":11},
+		"spriteSourceSize": {"x":0,"y":0,"w":16,"h":11},
+		"sourceSize": {"w":16,"h":11}
+	},
+	"shoeboxkid_80.png": {
+		"frame": {"x":0, "y":0, "w":60, "h":7},
+		"spriteSourceSize": {"x":0,"y":0,"w":60,"h":7},
+		"sourceSize": {"w":60,"h":7}
+	},
+	"shoeboxkid_81.png": {
+		"frame": {"x":49, "y":8, "w":14, "h":15},
+		"spriteSourceSize": {"x":0,"y":0,"w":14,"h":15},
+		"sourceSize": {"w":14,"h":15}
+	},
+	"shoeboxkid_82.png": {
+		"frame": {"x":0, "y":106, "w":16, "h":5},
+		"spriteSourceSize": {"x":0,"y":0,"w":16,"h":5},
+		"sourceSize": {"w":16,"h":5}
+	},
+	"shoeboxkid_83.png": {
+		"frame": {"x":0, "y":16, "w":42, "h":7},
+		"spriteSourceSize": {"x":0,"y":0,"w":42,"h":7},
+		"sourceSize": {"w":42,"h":7}
+	},
+	"shoeboxkid_84.png": {
+		"frame": {"x":50, "y":40, "w":13, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":13,"h":13},
+		"sourceSize": {"w":13,"h":13}
+	},
+	"shoeboxkid_85.png": {
+		"frame": {"x":34, "y":89, "w":16, "h":12},
+		"spriteSourceSize": {"x":0,"y":0,"w":16,"h":12},
+		"sourceSize": {"w":16,"h":12}
+	},
+	"shoeboxkid_86.png": {
+		"frame": {"x":0, "y":61, "w":31, "h":7},
+		"spriteSourceSize": {"x":0,"y":0,"w":31,"h":7},
+		"sourceSize": {"w":31,"h":7}
+	},
+	"shoeboxkid_87.png": {
+		"frame": {"x":0, "y":24, "w":40, "h":7},
+		"spriteSourceSize": {"x":0,"y":0,"w":40,"h":7},
+		"sourceSize": {"w":40,"h":7}
+	},
+	"shoeboxkid_88.png": {
+		"frame": {"x":0, "y":77, "w":22, "h":7},
+		"spriteSourceSize": {"x":0,"y":0,"w":22,"h":7},
+		"sourceSize": {"w":22,"h":7}
+	},
+	"shoeboxkid_89.png": {
+		"frame": {"x":55, "y":68, "w":13, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":13,"h":13},
+		"sourceSize": {"w":13,"h":13}
+	},
+	"shoeboxkid_90.png": {
+		"frame": {"x":51, "y":88, "w":13, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":13,"h":13},
+		"sourceSize": {"w":13,"h":13}
+	},
+	"shoeboxkid_91.png": {
+		"frame": {"x":64, "y":0, "w":12, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":12,"h":13},
+		"sourceSize": {"w":12,"h":13}
+	},
+	"shoeboxkid_92.png": {
+		"frame": {"x":95, "y":57, "w":10, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":10,"h":13},
+		"sourceSize": {"w":10,"h":13}
+	},
+	"shoeboxkid_93.png": {
+		"frame": {"x":64, "y":40, "w":13, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":13,"h":13},
+		"sourceSize": {"w":13,"h":13}
+	},
+	"shoeboxkid_94.png": {
+		"frame": {"x":36, "y":40, "w":13, "h":7},
+		"spriteSourceSize": {"x":0,"y":0,"w":13,"h":7},
+		"sourceSize": {"w":13,"h":7}
+	},
+	"shoeboxkid_95.png": {
+		"frame": {"x":50, "y":54, "w":13, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":13,"h":13},
+		"sourceSize": {"w":13,"h":13}
+	},
+	"shoeboxkid_96.png": {
+		"frame": {"x":69, "y":68, "w":12, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":12,"h":13},
+		"sourceSize": {"w":12,"h":13}
+	},
+	"shoeboxkid_97.png": {
+		"frame": {"x":91, "y":106, "w":10, "h":8},
+		"spriteSourceSize": {"x":0,"y":0,"w":10,"h":8},
+		"sourceSize": {"w":10,"h":8}
+	},
+	"shoeboxkid_98.png": {
+		"frame": {"x":103, "y":71, "w":9, "h":12},
+		"spriteSourceSize": {"x":0,"y":0,"w":9,"h":12},
+		"sourceSize": {"w":9,"h":12}
+	},
+	"shoeboxkid_99.png": {
+		"frame": {"x":0, "y":32, "w":40, "h":7},
+		"spriteSourceSize": {"x":0,"y":0,"w":40,"h":7},
+		"sourceSize": {"w":40,"h":7}
+	},
+	"shoeboxkid_run01.png": {
+		"frame": {"x":103, "y":29, "w":9, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":9,"h":13},
+		"sourceSize": {"w":9,"h":13}
+	},
+	"shoeboxkid_run02.png": {
+		"frame": {"x":91, "y":43, "w":11, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":11,"h":13},
+		"sourceSize": {"w":11,"h":13}
+	},
+	"shoeboxkid_run03.png": {
+		"frame": {"x":103, "y":43, "w":9, "h":13},
+		"spriteSourceSize": {"x":0,"y":0,"w":9,"h":13},
+		"sourceSize": {"w":9,"h":13}
+	}
+
+},
+"meta": {
+	"image": "shoeboxkid.png",
+	"size": {"w": 113, "h": 115},
+	"scale": "1"
+}
+}
